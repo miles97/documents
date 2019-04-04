@@ -20,3 +20,25 @@ merge或者 push之前研究参数以及名称的细节问题
 目前的问题卡在日期选择组件的应用   echarts数据的导入 以及 scroll-x 表单和样式的调整问题，还有切换页面，直接切换不同的页面还是重新加载不同的图表和 数据
 
 对于使用过一次的技术，自己还是印象不深刻，造成了很多时间的浪费，在之后KPI考核的标准下，还是应该自己捡起来猥琐发育才行
+
+## 扫盲篇
+
+因为之前用过小程序开发，不过已经三个月之前，此内并没有深刻的接触小程序的用法，导致了很多内容都忘记了。特别是一些关键的用法，vue中也是相似的使用。
+
+当我们需要选中渲染表单而且有一个√显示的时候
+
+```
+<div class="mapList" v-if="isShow">
+    <div class="list-line" v-for="(item,index) in mapList" :key="index" @click="changePage(index)" >
+        <p :class="isActive[index] ? 'active' : '' ">{{item}}<i class="icon" v-if="isActive[index]===true"></i></p>
+    </div>
+    <div class="mask"></div>
+</div>
+
+changePage(index){
+    this.isActive = [false,false,false,false,false,false]
+    this.isActive[index] = true;
+    console.log(event.target)
+}
+
+```
