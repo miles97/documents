@@ -106,3 +106,13 @@ npm run serve
 "serve": "vue-cli-service serve",
 ```
 
+## localStorage
+
+表达输入的友好型问题即是
+在一些需要选择的选项中用set存储数据，在下一次接口请求成功的时候将localStorage取出，填充。
+
+### 联动picker选择
+
+mint-ui // better-scroll
+
+### 关于深入理解组件内容
