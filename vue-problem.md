@@ -366,4 +366,11 @@ that.slots[1].values=that.cityList[data.data[0].province];
 如果页面样式不一致，仍然上，实际上需要复用的组件只是popup的部分，
 所以需要分辨实际用处部分，然后再通过这些内容进行交互(实际上Api已经说明了slots的使用方法)
 
+### ???
+写一个组件的具体系统化思维
 
+getValue   getDefalut 等等重复的逻辑
+
+mounted create等生命周期的含义
+
+组件！！？？
