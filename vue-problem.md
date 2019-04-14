@@ -339,6 +339,31 @@ https://blog.csdn.net/qq_40594137/article/details/80896631
 因为echarts4z之后引入的dataset模式，使用回调函数或者字符串进行输入的带入
 
 
+### 自定义组件时候的基本思想
 
+以使用Mint-ui的picker为例  当我们需要两种数据的时候
+
+仍然还是使用solts和value结合的方式展示数据，此外还是需要对于数组的内容进行处理，
+才能进行两种数据的展示。
+
+
+```
+let province=[];
+for(let i=0;i<data.data.length;i++){
+    province.push(data.data[i].province);
+    let city=[]
+    for(let j=0;j<data.data[i].cityList.length;j++){
+    city.push(data.data[i].cityList[j].city)
+}
+ that.cityList[data.data[i].province]=city;
+}
+that.slots[0].values=province;
+that.slots[1].values=that.cityList[data.data[0].province];
+```
+
+当然现在对于组件的理解还不是很深刻，所以基本上的还是处于理解状态中
+
+如果页面样式不一致，仍然上，实际上需要复用的组件只是popup的部分，
+所以需要分辨实际用处部分，然后再通过这些内容进行交互(实际上Api已经说明了slots的使用方法)
 
 
