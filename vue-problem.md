@@ -435,3 +435,8 @@ const name = this.$route.query.type //或者type的路由参数
 
 }
 ```
+isAcive=[false,false,fasel]
+
+isActive[index]=!isActive[index]  //存在的问题
+
+视图更新的相关因素
