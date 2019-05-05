@@ -24,30 +24,32 @@
 
 
 ### Step two.代办事项
-1.完成charts部分的数据接入
+1. 完成charts部分的数据接入
 
-2.~~重构部分代码~~
+2. ~~重构部分代码~~
 
-3.重新梳理页面逻辑,:key  v-for v-if以及风格指南中的一些内容
+3. 重新梳理页面逻辑,:key  v-for v-if以及风格指南中的一些内容
 
-4.~~v-if 和v-show的切换~~
+4. ~~v-if 和v-show的切换~~
 
-5.~~watch 监听数据变化？？   watch (newValue,oldValue){ this.o=newValue}  
+5. ~~watch 监听数据变化？？   watch (newValue,oldValue){ this.o=newValue}  
 data(){return o:this.o}~~
 
-6.ES6语法0.0
+6. ES6语法0.0
 
-7.~~data类型的null以及''，作为输入校验的问题~~
+7. ~~data类型的null以及''，作为输入校验的问题~~
 
-8.~~注释规范~~
+8. ~~注释规范~~
 
-9.~~部分用户交互的错误，成功返回~~
+9. ~~部分用户交互的错误，成功返回~~
 
-10.~~添加条件渲染的 &&userPermissions[基本的可能性有两种，第一即是在渲染的时候通过条件控制不渲染，仅展示有权限控制的按钮，
+10. ~~添加条件渲染的 &&userPermissions[基本的可能性有两种，第一即是在渲染的时候通过条件控制不渲染，仅展示有权限控制的按钮，
 其二即是通过交换时的判断，用toast展示错误信息或者没有权限分配]~~
 
 
-11.bug about 一些object问题以及value的问题数据格式，不能通过setData方式直接获取，并且视图层不即是更新
+1. bug about 一些object问题以及value的问题数据格式，不能通过setData方式直接获取，并且视图层不即是更新
+
+12. echarts以及getdata的切换问题和页面重新绘图逻辑
 
 ### Step three.问题收集
 
