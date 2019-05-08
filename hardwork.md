@@ -53,6 +53,8 @@ data(){return o:this.o}~~
 
 13. 门店选择组件问题
 
+14. search按钮之后的confirm操作
+
 ### Step three.问题收集
 
 问题就是整个前端界面的交互逻辑连个xmind也没有？？  测试都在用，产品用用写一哈嘛 或者UI？？UI很忙吧哥哥  
