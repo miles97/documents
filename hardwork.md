@@ -24,7 +24,7 @@
 
 
 ### Step two.代办事项
-1. 完成charts部分的数据接入
+1. ~~完成charts部分的数据接入~~
 
 2. ~~重构部分代码~~
 
@@ -47,13 +47,15 @@ data(){return o:this.o}~~
 其二即是通过交换时的判断，用toast展示错误信息或者没有权限分配]~~
 
 
-1. bug about 一些object问题以及value的问题数据格式，不能通过setData方式直接获取，并且视图层不即是更新
+1. bug about 一些object问题以及value的问题数据格式，不能通过setData方式直接获取，并且视图层不能即时更新
 
 12. echarts以及getdata的切换问题和页面重新绘图逻辑
 
 13. 门店选择组件问题
 
 14. search按钮之后的confirm操作
+
+15. getData页面空白的逻辑和x轴处理的之后的小bug问题  即是iconpicker的问题
 
 ### Step three.问题收集
 
