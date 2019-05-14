@@ -53,9 +53,11 @@ data(){return o:this.o}~~
 
 13. 门店选择组件问题
 
-14. search按钮之后的confirm操作
+14. ~~~search按钮之后的confirm操作  直接setData完事儿~~~
 
 15. getData页面空白的逻辑和x轴处理的之后的小bug问题  即是iconpicker的问题
+
+16.  
 
 ### Step three.问题收集
 
