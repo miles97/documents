@@ -7,6 +7,8 @@
 3. 然后对于json内获取的数值的数据格式存在一些疑惑，以及对于自己push({[item.id]:item.name})，诸如此类的自定义数组的数据格式问题
 
 4. 最佳实践的输入控制以及表单数值控制和监听等问题
+
+
 ```java
 通过input原生的@input.native.capture="checkPrice"  check事件，然后通过判断e.target.value的值进行使用
 checkPrice(e) {
@@ -21,3 +23,5 @@ checkPrice(e) {
 
 完成对于输入控制区间的简单判断
 ```
+
+5. 对于计算机内容运用的问题
