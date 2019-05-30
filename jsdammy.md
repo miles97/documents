@@ -28,4 +28,28 @@ checkPrice(e) {
 
 6. 移动端300ms延迟的处理方式(faseclick的基本用法)，以及产生的原生和不同浏览器厂商的处理方式
 
-7. 
+7. 移动端分辨率适配解决方案flexible
+
+8. 公用样式里面需要定义，清空基本样式的margin,padding等属性问题
+
+```javascript
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+```
+
+9. 监听数组，对象，方法等不同监听方法之间的差别[vue监听watch](https://blog.csdn.net/guanguan0_0/article/details/80355029)
