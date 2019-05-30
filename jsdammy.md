@@ -1,4 +1,4 @@
-### JS问题一览
+﻿### JS问题一览
 
 1. 基本都是数组处理以及对象访问，渲染，转换字符串，对象，数组等
 
@@ -53,3 +53,5 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 ```
 
 9. 监听数组，对象，方法等不同监听方法之间的差别[vue监听watch](https://blog.csdn.net/guanguan0_0/article/details/80355029)
+
+10. 监听不同二维数组的内容问题以及遍历所有对象
