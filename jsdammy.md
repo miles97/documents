@@ -54,4 +54,4 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 9. 监听数组，对象，方法等不同监听方法之间的差别[vue监听watch](https://blog.csdn.net/guanguan0_0/article/details/80355029)
 
-10. 监听不同二维数组的内容问题以及遍历所有对象
+10. 自定义输入控制检测的部分问题
