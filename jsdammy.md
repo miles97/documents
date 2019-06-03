@@ -57,3 +57,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 10. 自定义输入控制检测的部分问题
 
 11. this.$emit向父组件传递自定义函数
+
+12. 关于数组和数组之间的问题  [77654, __ob__: Observer] 和 [77654]  ,在页面内的watch属性设置相应字段的监听vans
+
+13. 默认填充的问题
