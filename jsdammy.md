@@ -61,3 +61,5 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 12. 关于数组和数组之间的问题  [77654, __ob__: Observer] 和 [77654]  ,在页面内的watch属性设置相应字段的监听vans
 
 13. 默认填充的问题
+
+14. for循环拼接对象
