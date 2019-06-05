@@ -60,6 +60,42 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 12. 关于数组和数组之间的问题  [77654, __ob__: Observer] 和 [77654]  ,在页面内的watch属性设置相应字段的监听vans
 
-13. 默认填充的问题
+13. 默认填充的问题？？？？？？？？？？？？？？？？？？？？？？
+
+
 
 14. for循环拼接对象
+
+```
+ let newObj = {};
+    arr2.forEach((item, index) => {
+        for (var k in item) {
+            newObj[k] = item[k]
+        }
+    })
+```
+这样，这个newObj直接变成了包含所有合集的对象
+
+
+15. 当问题是条件不渲染还是直接{{item.key}}展示出来的问题
+
+```
+<!--                        <ul v-for="(item,key) in defaultData.defeatInfo" :key="item.id">-->
+<!--                            <li :style="isDefeat" style="color: #000;" v-if="key !== 'defeatReasonNum' && key !=='sellToFriendNum' && key !== 'darkCarNum'-->
+<!--                                    && key !== 'accidentCarNum' && key !== 'tooHighNum'">-->
+<!--                                <span>{{item}}</span>-->
+<!--                            </li>-->
+<!--                        </ul>-->
+```
+对于后端而言，不是很友好而且不符合未来的拓展要求，所以还是需要手动控制
+
+```
+                            <div v-if="defaultData.totalInfo.newCarExchangeRate">
+                                <span>{{item.exchangeNum}}</span>
+                                <span>{{item.newCarSaleNum}}</span>
+                                <span>{{item.newCarExchangeRate}} <b v-if="item.newCarExchangeRate !=='-'">%</b> </span>
+                                <span>{{item.monthTargetNum}}</span>
+                                <span>{{item.monthNewCarExchangeRate}} <b
+                                        v-if="item.monthNewCarExchangeRate !=='-'">%</b> </span>
+                            </div>
+```
