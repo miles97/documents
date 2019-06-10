@@ -60,7 +60,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 12. 关于数组和数组之间的问题  [77654, __ob__: Observer] 和 [77654]  ,在页面内的watch属性设置相应字段的监听vans
 
-13. 默认填充的问题？？？？？？？？？？？？？？？？？？？？？？
+13. 默认填充的问题,区分数组，对象，以及字符串。vans
 
 
 
@@ -99,3 +99,29 @@ table, caption, tbody, tfoot, thead, tr, th, td {
                                         v-if="item.monthNewCarExchangeRate !=='-'">%</b> </span>
                             </div>
 ```
+
+
+16. 解决一个index操作的数组并且对应操作数据
+
+最开始采用操作index的方法，对照一个数组然后操作一个修改的数组，但是随着数组长度的变化，index的指向是错误的，如果通过逻辑判断的话几乎需要很大的工作量才能涵盖完全的形式，所以经过了很久的判断之后使用index对应的itemName，然后遍历新数组的item，如果数组内存在相应的元素，才开始操作。
+同理，只有有相应的元素时，才开始操作对应的数据。
+
+```js
+      if (!this.isClickOn[index]) {     //删除item
+          group.forEach(function (item, index, arr) {
+              if (item == itemName) {
+                  arr.splice(index, 1);
+              }
+          });
+
+          //before
+          //if(index<group.length){.........}
+          //let arr1 =  group.splice(index, 1)
+          //然后控制很多index的情况以及判断ele
+
+      }
+      if (this.isClickOn[index]) {      //添加item
+          let arr1 = group.splice(index, 0, itemName)
+      }
+```
+
