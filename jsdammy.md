@@ -9,7 +9,7 @@
 4. 最佳实践的输入控制以及表单数值控制和监听等问题
 
 
-```java
+```js
 通过input原生的@input.native.capture="checkPrice"  check事件，然后通过判断e.target.value的值进行使用
 checkPrice(e) {
     if(e.target.value <= 1000){
@@ -32,7 +32,7 @@ checkPrice(e) {
 
 8. 公用样式里面需要定义，清空基本样式的margin,padding等属性问题
 
-```javascript
+```js
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -66,7 +66,7 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 
 14. for循环拼接对象
 
-```
+```js
  let newObj = {};
     arr2.forEach((item, index) => {
         for (var k in item) {
