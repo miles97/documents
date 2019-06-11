@@ -125,3 +125,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
       }
 ```
 
+17. mint-ui组件问题 上拉刷新，下拉加载的问题  除了minheight或者height之外，还需要的即是
+
+```js
+overflow-y: auto;
+-webkit-overflow-scrolling: touch;
+```
