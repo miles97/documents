@@ -131,3 +131,17 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 overflow-y: auto;
 -webkit-overflow-scrolling: touch;
 ```
+
+18. 写一个组件包含的简单问题 props,this.$emit("getPayTypeStr", this.payTypeStr),watch.
+
+19. 清空数据操作
+```js
+this.$refs.input.emptySearchVal();//ref='input'  清空该值
+this.$set(this.price, 'maxPrice', newValue);// //
+```
+
+20. ES6    ??? arr.findIndex((ele)=>(ele.value == value)) > -1  ??? 作为条件
+
+21. 代码库以及封装的模块组件库  供未来使用   除了.vue  .js的一些正则校验，输入控制，图片，媒体处理，ajax请求封装，等等
+
+22. 
