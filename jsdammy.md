@@ -145,3 +145,10 @@ this.$set(this.price, 'maxPrice', newValue);// //
 21. 代码库以及封装的模块组件库  供未来使用   除了.vue  .js的一些正则校验，输入控制，图片，媒体处理，ajax请求封装，等等
 
 22. 对于生命周期，以及一些简单的问题处理。还有业务逻辑的完善
+
+23. 字符串拼接ES6 
+```js
+`&type=${this.type}&outType=${this.outType}&orderId=${
+  this.orderId
+}&memberSid=${this.userSid}&outId=${this.evaluateInfo.clueId}`;
+```
