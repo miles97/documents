@@ -152,3 +152,5 @@ this.$set(this.price, 'maxPrice', newValue);// //
   this.orderId
 }&memberSid=${this.userSid}&outId=${this.evaluateInfo.clueId}`;
 ```
+24. 关于页面的fixed问题  直接通过滑动部分的div 设置overflow auto ，而不是设置position fixed
+
