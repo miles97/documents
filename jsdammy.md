@@ -152,5 +152,10 @@ this.$set(this.price, 'maxPrice', newValue);// //
   this.orderId
 }&memberSid=${this.userSid}&outId=${this.evaluateInfo.clueId}`;
 ```
-24. 关于页面的fixed问题  直接通过滑动部分的div 设置overflow auto ，而不是设置position fixed
+24. 关于页面的fixed问题  直接通过滑动部分的div 设置overflow auto ，而不是设置position fixed IOS兼容性问题  fixed页面抖动问题，对于scroll||touch的支持问题，index的问题（暂时未知）
 
+25. 对于图表类的页面，style内联样式容易滥用，同时需要注意权重分配的问题，否则容易导致页面不一致的问题
+
+26. 对于wrap-content最好的解决方案仍然还是使用块级样式包裹，然后通过调整完成.
+
+27. 
