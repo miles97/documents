@@ -158,4 +158,22 @@ this.$set(this.price, 'maxPrice', newValue);// //
 
 26. 对于wrap-content最好的解决方案仍然还是使用块级样式包裹，然后通过调整完成.
 
-27. 
+27. 缓存取出来的数据格式是键值对格式，需要转成对象进行使用 
+
+JSON.parse(localStorage.getItem('userPermissions'));
+
+28. 遇到报错
+Cannot convert undefined or null to object
+的时候，使用万能的[]包裹对象，就可以让其变成对象(maybe not)任人宰割,条件渲染权限的简易伪代码
+```js
+let arr2 = JSON.parse(localStorage.getItem('userPermissions'));
+
+this.userPermissions = [...[arr2['emm:clueReport:replacement']],...[arr2['emm:clueReport:newCarAnalyze']],...[arr2['emm:clueReport:replacementAnalyze']],...[arr2['emm:clueReport:defeatAnalyze']],...[arr2['emm:salesDataManage:businessCount']],...[arr2['emm:salesDataManage:businessCount']]]
+
+data:{
+	userPermissions:[] //完事
+}
+
+<  v-if="userPermissions[index] ? true : false"   />
+```
+
