@@ -177,3 +177,4 @@ data:{
 <  v-if="userPermissions[index] ? true : false"   />
 ```
 
+29. 下个项目准备display:flex;
