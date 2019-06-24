@@ -177,4 +177,13 @@ data:{
 <  v-if="userPermissions[index] ? true : false"   />
 ```
 
-29. 下个项目准备display:flex;
+29. 下个项目准备display:flex;以及惯用伎俩find((ele)=>(ele.what==='what')) ;
+
+
+30. 复盘项目遇到的问题以及业务和技术实现角度的上面的逻辑冲突
+角色用户所属权限问题；页面的上拉刷新，下拉加载，以及当前页面的加载allloaded，lazyload等问题
+表单的缓存以及填充问题
+报表的各种APIcharts属性，组件的表现形式以及css展示的问题（报表的数据处理逻辑问题不计）
+
+31. 
+
