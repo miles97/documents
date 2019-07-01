@@ -44,3 +44,5 @@ key值在没有删除插入操作时只要是唯一值也无所谓
 可以试试这样 ${Date.now()}  ${Math.floor(Math.random()*10000)}
 可以试试 symbol()
 ```
+
+3. 
