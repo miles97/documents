@@ -11,3 +11,7 @@ const a2 = [...a1];
 // 写法二
 const [...a2] = a1;
 ```
+
+2.  !!双叹号表示  arrgument ? true : false
+
+3. || 表示none or have
