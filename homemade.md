@@ -2,19 +2,19 @@
 
 1.  
 
-2. ´úÂë¿â
+2. ä»£ç åº“
 
 3.....
 
 4. sdsd
 
-5. ¼æÈÝÐÔÎÊÌâµ÷ÊÔ
+5. å…¼å®¹æ€§é—®é¢˜è°ƒè¯•
 
-6. ¹ØÓÚÊý×é¶ÔÏóµÄÎÊÌâÒÔ¼°»º´æÊý¾Ý¸ñÊ½µÄÎÊÌâ 
+6. å…³äºŽæ•°ç»„å¯¹è±¡çš„é—®é¢˜ä»¥åŠç¼“å­˜æ•°æ®æ ¼å¼çš„é—®é¢˜ 
 display:flex:sss
 
-7.   µ÷ÑÐÑ§Ï°react-native Ïà¹ØÄÚÈÝÒÔ¼°½Ó¿ÚÎÄµµ£¬ÉçÇø×ÊÔ´
+7.   è°ƒç ”å­¦ä¹ react-native ç›¸å…³å†…å®¹ä»¥åŠæŽ¥å£æ–‡æ¡£ï¼Œç¤¾åŒºèµ„æº
 
 8. begin aggin
 
-9. ss12
+9. 
