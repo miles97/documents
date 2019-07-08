@@ -12,6 +12,26 @@ const a2 = [...a1];
 const [...a2] = a1;
 ```
 
-2.  !!双叹号表示  arrgument ? true : false
+2.  !!双叹号表示  `arrgument ? true : false`
 
-3. || 表示none or have
+3. 表示none or have
+
+4. 关于非循环渲染列表的最佳实践之一（idea from college）
+```javascipt
+setAll(type){
+	let tempObj = {
+		1:()=>{
+			this.first = {id:0,name:'全部'};
+			this.besure();
+		},
+		2:()=>{
+			this.besure();
+		},
+		3:()=>{
+			this.besure();
+		}
+	}
+	tempObj[type]();
+```
+
+5. hello
