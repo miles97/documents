@@ -1,4 +1,4 @@
-## [ryf学ES6](https://github.com/ruanyf/es6tutorial/blob/gh-pages/docs/array.md)
+﻿## [ryf学ES6](https://github.com/ruanyf/es6tutorial/blob/gh-pages/docs/array.md)
 
 1. 复制对象数组
 
@@ -34,4 +34,4 @@ setAll(type){
 	tempObj[type]();
 ```
 
-5. hello
+5. 
