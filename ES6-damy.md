@@ -34,4 +34,29 @@ setAll(type){
 	tempObj[type]();
 ```
 
-5. 
+5. 数组的完全填充内容
+将一个数组的内容全部变成false，index为0的为true
+
+Array.from( isArrayLike, ()=>{})有个问题。即是会影响原来的数组
+
+isArrayLike.fill(false),直接完成需求。每次都会重新填充，后面可以加上两个参数， 
+
+fill方法还可以接受第二个和第三个参数，用于指定填充的起始位置和结束位置。
+['a', 'b', 'c'].fill(7, 1, 2)
+// ['a', 7, 'c']
+上面代码表示，fill方法从 1 号位开始，向原数组填充 7，到 2 号位之前结束。
+
+6. 新建一个空数组or NaN数组 or Null数组 Or undefined数组 or nothing数值
+undefined
+
+```Array.from({ length: 3 });```
+
+null||NaN||undefined
+```Array.from({ length: 2 }, () => null)```
+
+空的数组
+```
+Array(length);
+Array(12).fill(false);
+//[false, false, false, false, false, false, false, false, false, false, false, false]
+``` 
