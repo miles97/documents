@@ -60,3 +60,26 @@ Array(length);
 Array(12).fill(false);
 //[false, false, false, false, false, false, false, false, false, false, false, false]
 ``` 
+
+7. 与非逻辑运算符与if之间的关系
+```
+&& || 
+以及用二者来代替if的逻辑关系    
+
+表达式&&结果 ||另一个结果   ==  if(表达式){结果}else{另一个结果}
+
+```
+
+8. [ES6语法规范相关](https://github.com/ruanyf/es6tutorial/blob/gh-pages/docs/style.md)
+
+使用const 以及 let 代替var ，并使用解构赋值的思想来对于一些变量的声明进行简化
+或者直接 安装 Airbnb 语法规则，以及 import、a11y、react 插件。
+
+$ npm i -g eslint-config-airbnb
+$ npm i -g eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
+在项目的根目录下新建一个.eslintrc文件，配置 ESLint。
+
+{
+  "extends": "eslint-config-airbnb"
+}
+现在就可以检查，当前项目的代码是否符合预设的规则。
