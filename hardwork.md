@@ -1,6 +1,6 @@
-# 哈德沃克修炼手册[star](http://github.com/miles97)
+﻿# 哈德沃克修炼手册[star](http://github.com/miles97)
 
-### Step one.业务熟练度
+### Step one.业务熟练度22
 
 基本的开发工作完成之后，剩下的时间就是进行代码review以及对于业务相关的熟悉问题。
 
