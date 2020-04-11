@@ -28,7 +28,7 @@
 
 * [学这些去大厂?](https://segmentfault.com/a/1190000002606145)
 
-#### 巩固语法
+#### 巩固语法12
 
 * [ES6简单的复习题](https://www.jianshu.com/p/220a54f7adce)
 
@@ -38,3 +38,4 @@
 
 * [简单的正则匹配](https://segmentfault.com/a/1190000015489423)
 
+ 
