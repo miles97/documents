@@ -39,3 +39,7 @@
 * [简单的正则匹配](https://segmentfault.com/a/1190000015489423)
 
  * [简单的样式基础](https://segmentfault.com/a/1190000008705541)
+ 
+ #### 代码写法优化
+ 
+ * [js写法优化](https://juejin.im/post/5e9298cfe51d4546f27ff345)
