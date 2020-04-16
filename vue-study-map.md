@@ -454,5 +454,24 @@ store.commit('increment', {
 })
 
 
-
+```
+#### vue使用mixin生命全局变量以及定义一些错误展示信息
+```js
+* Vueprototype.js
+const methods = Vue.mixin({
+    data() {
+        return {
+            nodata: 'nodataView',
+            errordefaultImg: 'this.src="' + require("../image/fail.png") + '"'
+        }
+    },
+    components: {
+        nodataView: {
+            template: '<div class="nodata"><img src="' + require("../image/nodata.png") + '" width="222"/><p>暂无数据</p></div>'
+        }
+    },
+    methods: {
+    
+    }
+    })
 ```
