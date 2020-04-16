@@ -36,6 +36,8 @@
 
 * [JS问题](https://segmentfault.com/a/1190000019750731)
 
+* [JS call bind apply函数实现](https://juejin.im/post/5e97132df265da47cd35760c)
+
 * [简单的正则匹配](https://segmentfault.com/a/1190000015489423)
 
  * [简单的样式基础](https://segmentfault.com/a/1190000008705541)
@@ -47,3 +49,4 @@
  #### 语言实现
  
 * [vue如何做到监听数组的](https://segmentfault.com/a/1190000022381071)
+
