@@ -7,7 +7,7 @@
 
 * [阿里面试题其二](https://juejin.im/post/5e82aa8df265da47ca6910b5)
 
-* [阿里盒马](https://juejin.im/post/5e9d2052e51d4546e5571a86)
+* [阿里盒马简单的面试题](https://juejin.im/post/5e9d2052e51d4546e5571a86)
 
 #### web性能优化专题
 
