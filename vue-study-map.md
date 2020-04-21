@@ -475,3 +475,5 @@ const methods = Vue.mixin({
     }
     })
 ```
+
+#### [Vue3.0 过渡](https://juejin.im/post/5e9d81b851882573866ba89c)
