@@ -54,3 +54,5 @@
 #### 文盲个人提升向(带团队)
 
 * [团队管理](https://juejin.im/post/5ea231ac6fb9a03c576ccb17)
+
+* [日常X](https://juejin.im/post/5ea39c93f265da47e84e8c8a)
