@@ -61,3 +61,18 @@ close	Socket.onclose	连接关闭时触发
             setInterval(pollingFun,1500);
         }
 ```
+
+属性	描述
+Socket.readyState	
+只读属性 readyState 表示连接状态，可以是以下值：
+
+0 - 表示连接尚未建立。
+
+1 - 表示连接已建立，可以进行通信。
+
+2 - 表示连接正在进行关闭。
+
+3 - 表示连接已经关闭或者连接不能打开。
+
+Socket.bufferedAmount	
+只读属性 bufferedAmount 已被 send() 放入正在队列中等待传输，但是还没有发出的 UTF-8 文本字节数。
