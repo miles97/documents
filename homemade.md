@@ -21,4 +21,5 @@
   "&sourceType=1&deviceType=1";
   ```
  
- 日程更新
+ ### 使用WS的场景
+ websocket
