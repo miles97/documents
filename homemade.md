@@ -32,3 +32,32 @@ open	Socket.onopen	连接建立时触发
 message	Socket.onmessage	客户端接收服务端数据时触发
 error	Socket.onerror	通信发生错误时触发
 close	Socket.onclose	连接关闭时触发
+```js
+        var socket;
+        if (!window.WebSocket) {
+            window.WebSocket = window.MozWebSocket;
+        }
+        if (window.WebSocket) {
+            socket = new WebSocket("ws://101.222.210.73:12/ws");
+            socket.onmessage = function(event) {
+                console.log(event.data);
+                pollingFun();
+            };
+            socket.onopen = function(event) {
+                var msg = {
+                    type : '001',
+                    ad : ad
+                };
+                socket.send(JSON.stringify(msg));
+                console.log("连接开启!");
+                pollingFun();
+            };
+            socket.onclose = function(event) {
+                console.log("连接被关闭");
+                setInterval(pollingFun,1500);
+            };
+        } else {
+            alert("你的浏览器不支持 WebSocket！");
+            setInterval(pollingFun,1500);
+        }
+```
