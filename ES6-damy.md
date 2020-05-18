@@ -82,4 +82,4 @@ $ npm i -g eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-react
 {
   "extends": "eslint-config-airbnb"
 }
-现在就可以检查，当前项目的代码是否符合预设的规则。
+现在就可以检查，当前项目的代码是否符合预设的规则
