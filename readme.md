@@ -51,7 +51,7 @@
  
 * [vue如何做到监听数组的](https://segmentfault.com/a/1190000022381071)
 
-#### 文盲个人提升向(带团队)
+#### 文盲个人提升向(团队)
 
 * [团队管理](https://juejin.im/post/5ea231ac6fb9a03c576ccb17)
 
