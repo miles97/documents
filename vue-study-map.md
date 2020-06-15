@@ -159,13 +159,17 @@ const reportList = r => require.ensure([], () => r(require('@/pages/reportList/'
 
 ```
 ### 定义路由规则
+
 ```javascript
+
 routes: [
   {
     path:'/',
     name:'reportList',
     redirect:'/reportList',
   }]
+  
+  
 ```
 ### 使用
 ```
