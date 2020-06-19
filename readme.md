@@ -47,6 +47,8 @@
  
  * [js写法优化](https://juejin.im/post/5e9298cfe51d4546f27ff345)
  
+ * 代码逻辑以及实现优化
+ 
  #### js语言实现
  
 * [vue如何做到监听数组的](https://segmentfault.com/a/1190000022381071)
