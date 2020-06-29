@@ -1,0 +1,4 @@
+#### 常见的git操作手册
+
+使用git config http.postBuffer 524288000进行第一次项目push的时候，防止默认缓存引起的提交问题
+
