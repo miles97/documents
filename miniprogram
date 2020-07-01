@@ -2,7 +2,15 @@
 
 ```js
 
-
+toTCaptcha: function () {
+    wx.navigateToMiniProgram({
+      appId: 'wx5a3a7366fd07e119',
+      path: '/pages/captcha/index',
+      extraData: {
+        appId: 'appId'//您申请的验证码的 appId
+      }
+    })
+  }
 ```
 
 #### 小程序总结
