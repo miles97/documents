@@ -1,4 +1,4 @@
-### wechat mp项目最佳实践小结
+### mp项目最佳实践小结
 
 ```js
 toTCaptcha: function () {
