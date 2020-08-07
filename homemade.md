@@ -38,7 +38,7 @@ close	Socket.onclose	连接关闭时触发
             window.WebSocket = window.MozWebSocket;
         }
         if (window.WebSocket) {
-            socket = new WebSocket("ws://101.222.210.73:12/ws");
+            socket = new WebSocket("ws://101.222.210.73:12/ws");//使用字符串拼接${this.requestUrl}
             socket.onmessage = function(event) {
                 console.log(event.data);
                 pollingFun();
