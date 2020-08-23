@@ -9,7 +9,7 @@
 
 * [阿里盒马简单的面试题](https://juejin.im/post/5e9d2052e51d4546e5571a86)
 
-#### web性能优化专题
+#### web性能优化专题 
 
 * [前端性能优化————加载](https://juejin.im/post/5d00820b5188255ee806a1c7)
 
@@ -29,7 +29,7 @@
 
 * [学这些去大厂?](https://segmentfault.com/a/1190000002606145)
 
-#### 巩固语法
+#### 巩固语法相关
 
 * [ES6简单的复习题](https://www.jianshu.com/p/220a54f7adce)
 
