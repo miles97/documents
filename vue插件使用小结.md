@@ -92,3 +92,6 @@ Socket.bufferedAmount
 ## 解决sourcetree上传代码没有引起视图更新的问题
 
 在项目看板的账户配置中关联github账户，进行尝试
+
+ ##  解决preventDefault 
+  touch-action: none; 
