@@ -93,5 +93,9 @@ Socket.bufferedAmount
 
 在项目看板的账户配置中关联github账户，进行尝试
 
- ##  解决preventDefault 
-  touch-action: none; 
+##  解决preventDefault (react onclick事件相关)
+所有元素
+*{
+touch-action: none; 
+} 
+ 
