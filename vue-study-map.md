@@ -21,7 +21,7 @@
 ├── favicon.ico                                 // 图标
 ├── index.html                                  // 入口html文件
 ```
-## 浅显研究的话就是vue更多的是一些状态管理以及跨页面的通信，通过多重复用的组件实现代码，页面。
+## 浅显研究的话就是vue更多的是一些状态管理以及跨页面的通信，通过多重复用的组件实现代码页面。
 
 
 # Vue 内容详细比较
@@ -126,7 +126,7 @@ methods: {
 
 ·在对象当中，CSS 的属性名要用驼峰式表达：fontSize解析成font-size
 
-```
+```vue
 <button class="licenses-button" :disabled="disabled" :style="stylecss" @click="callLicenses">{{keyText}}</button>
 
 props: {

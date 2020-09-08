@@ -14,4 +14,10 @@ toTCaptcha: function () {
 
 #### 小程序总结
 
-//[小程序登录状态流程](https://juejin.im/entry/589944da570c3500624e4554)
+```js
+
+```
+
+
+
+[小程序登录状态流程](https://juejin.im/entry/589944da570c3500624e4554)
