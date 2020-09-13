@@ -3,9 +3,7 @@
 
 #### 浏览器 MVVM框架语言(Vue/React) 跨平台开发(RN) 网络等综合项
 
-* [阿里面试题其一](https://juejin.im/post/5e7426d15188254967069c00)
-
-* [阿里面试题其二](https://juejin.im/post/5e82aa8df265da47ca6910b5)
+* [简单的面试题直接干起来](https://damnn.io)
 
 * [阿里盒马简单的面试题](https://juejin.im/post/5e9d2052e51d4546e5571a86)
 
