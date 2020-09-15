@@ -1,4 +1,4 @@
-﻿# 哈德沃克修炼手册[star](http://github.com/miles97)
+# 哈德沃克修炼手册[star](http://github.com/miles97)
 
 ### Step one.业务熟练度22
 
@@ -53,7 +53,9 @@ data(){return o:this.o}~~
 
 13. 门店选择组件问题
 
-14. ~~~search按钮之后的confirm操作  直接setData完事儿~~~
+4. ~~~search按钮之后的confirm操作  直接setData完事儿~~~
+   
+   ~~~
 
 15. getData页面空白的逻辑和x轴处理的之后的小bug问题  即是iconpicker的问题
 
@@ -61,7 +63,7 @@ data(){return o:this.o}~~
 
 ### Step three.问题收集
 
-问题就是整个前端界面的交互逻辑连个xmind也没有？？  测试都在用，产品用用写一哈嘛 或者UI？？UI很忙吧哥哥  
+问题就是整个前端界面的交互逻辑连个xmind也没有
 
 系统codereview。。。前提自然是闲的话xxixixixixi
 
