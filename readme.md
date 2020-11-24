@@ -3,8 +3,6 @@
 
 #### 浏览器 MVVM框架语言(Vue/React)
 
-* [简单的面试题直接干起来](https://damnn.io)
-
 * [阿里盒马简单的面试题](https://juejin.im/post/5e9d2052e51d4546e5571a86)
 
 #### web性能优化专题 
