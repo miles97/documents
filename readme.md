@@ -20,9 +20,3 @@ vue双向绑定讲一讲
 讲事件循环
 讲nodejs的eventEmitter的实现
 
-讲项目里面的鉴权和图片懒加载怎么实现的
-讲vue-lazyloader的原理，手写伪代码
-讲express框架的设计思想
-线上日志是如何处理的
-讲事件循环
-讲nodejs的eventEmitter的实现
