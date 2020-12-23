@@ -1,61 +1,28 @@
 ## 面试题目资源更新/前端学习路径更新
 
+[interview](https://juejin.cn/post/6844903757977927687)
 
-#### 浏览器 MVVM框架语言(Vue/React)
+css实现图片自适应宽高
+讲flex，手写出flex常用的属性，并且讲出作用
+BFC是什么
+项目里面的前端鉴权是怎么实现的？
+vue里面的虚拟dom是怎么回事？
+vue双向绑定讲一讲
+手写函数防抖和函数节流
+讲讲常用的es6语法，比如let、promise、class等等
+浏览器渲染过程，回流重绘等等，load、DOMContentLoaded等等事件的触发顺序
+从小米应用商店里面随便找了一个需求让我现场实现，写伪代码
 
-* [阿里盒马简单的面试题](https://juejin.im/post/5e9d2052e51d4546e5571a86)
+讲项目里面的鉴权和图片懒加载怎么实现的
+讲vue-lazyloader的原理，手写伪代码
+讲express框架的设计思想
+线上日志是如何处理的
+讲事件循环
+讲nodejs的eventEmitter的实现
 
-#### web性能优化专题 
-
-* [前端性能优化————加载](https://juejin.im/post/5d00820b5188255ee806a1c7)
-
-* [前端性能优化总结](https://segmentfault.com/a/1190000018263418)
-
-#### 前端工程化专题
-
-* [自动化 Web 性能优化分析方案](https://juejin.im/post/5d6de51de51d45620771f12c)
-
-* [搭建前端监控系统](https://segmentfault.com/a/1190000019762077)
-
-#### 简单的算法题
-
-* [前端数据结构与算法细致分析—上（复杂度分析）](https://segmentfault.com/a/1190000021026249)
-
-#### 扫盲学习路线
-
-* [学这些去大厂，爬](https://segmentfault.com/a/1190000002606145)
-
-#### 巩固语法相关
-
-* [ES6简单的复习题](https://www.jianshu.com/p/220a54f7adce)
-
-* [JS相关技巧](https://juejin.im/post/5cef46226fb9a07eaf2b7516)
-
-* [JS问题](https://segmentfault.com/a/1190000019750731)
-
-* [JS call bind apply函数实现](https://juejin.im/post/5e97132df265da47cd35760c)
-
-* [简单的正则匹配](https://segmentfault.com/a/1190000015489423)
-
- * [简单的样式基础](https://segmentfault.com/a/1190000008705541)
- 
- #### 代码写法优化以及代码审查
- 
- * [js写法优化](https://juejin.im/post/5e9298cfe51d4546f27ff345)
- 
- 
- #### js语言实现
- 
-* [vue如何做到监听数组的](https://segmentfault.com/a/1190000022381071)
-
-#### 文盲个人提升向(团队)
-
-* [团队管理](https://juejin.im/post/5ea231ac6fb9a03c576ccb17)
-
-* [日常](https://juejin.im/post/5ea39c93f265da47e84e8c8a)
-
-* [ES新特性](https://juejin.im/post/5ea7d10ff265da7bfa190262)
-
-#### 基础实践流
-
-* [简单复杂的中高级题库](https://www.jianshu.com/p/fd440bac7e93)
+讲项目里面的鉴权和图片懒加载怎么实现的
+讲vue-lazyloader的原理，手写伪代码
+讲express框架的设计思想
+线上日志是如何处理的
+讲事件循环
+讲nodejs的eventEmitter的实现
