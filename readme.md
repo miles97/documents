@@ -2,6 +2,7 @@
 
 [interview](https://juejin.cn/post/6844903757977927687)
 
+```
 css实现图片自适应宽高
 讲flex，手写出flex常用的属性，并且讲出作用
 BFC是什么
@@ -20,3 +21,9 @@ vue双向绑定讲一讲
 讲事件循环
 讲nodejs的eventEmitter的实现
 
+
+讲vue-lazyloader源码以及设计
+使用es5实现es6的class
+websocket握手过程
+浏览器的事件循环和nodejs事件循环的区别
+`
